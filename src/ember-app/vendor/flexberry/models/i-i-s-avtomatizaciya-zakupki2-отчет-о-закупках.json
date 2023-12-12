@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISAvtomatizaciya_zakupki2ОтчетОЗакупках",
+  "modelName": "i-i-s-avtomatizaciya-zakupki2-отчет-о-закупках",
+  "className": "ОтчетОЗакупках",
+  "nameSpace": "IIS.Avtomatizaciya_zakupki2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтчетОЗакупкахE",
+      "modelName": "i-i-s-avtomatizaciya-zakupki2-отчет-о-закупках",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтчетОЗакупкахL",
+      "modelName": "i-i-s-avtomatizaciya-zakupki2-отчет-о-закупках",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Контрагенты",
+  "name": "IISAvtomatizaciya_zakupki2КонтрагентыE",
+  "className": "КонтрагентыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-zakupki2-контрагенты",
+      "modelProjection": "КонтрагентыE"
+    }
+  ]
+}
